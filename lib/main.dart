@@ -202,6 +202,7 @@ class _ExamplePageState extends State<ExamplePage> {
   Future<bool> _stopForegroundTask() {
     return FlutterForegroundTask.stopService();
   }
+//new line
 
   bool _registerReceivePort(ReceivePort? newReceivePort) {
     if (newReceivePort == null) {
